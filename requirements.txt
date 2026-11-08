@@ -1,0 +1,13 @@
+ultralytics==8.3.93
+fastapi==0.109.0
+uvicorn==0.29.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+pillow==10.2.0
+torch==2.1.0  # Adjust based on compatibility with M2 GPU
+matplotlib==3.8.2
+pydantic==2.5.3
+python-multipart==0.0.9
+
+
+uvicorn app:app --reload

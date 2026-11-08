@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+static/*.jpg
+static/*.jpeg
+static/*.png
+static/faces/*
+!static/faces/.gitkeep
